@@ -3,7 +3,11 @@ html {
   --main-font: Poppins, Arial;
   --main-color: #366eff;
 }
+img {
+  max-width: 90%;
+}
 .main-page {
+  display: none;
 }
 .content {
   max-width: 1200px;
@@ -141,7 +145,7 @@ html {
 }
 
 .menu {
-  display: none;
+  /* display: none; */
   margin-top: 40px;
 }
 .menu_row {
