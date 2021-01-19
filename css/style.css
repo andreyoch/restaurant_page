@@ -5,9 +5,10 @@ html {
 }
 
 .header {
+  max-width: 1200px;
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  justify-content: space-around;
 }
 
 .header_logo {
@@ -15,14 +16,12 @@ html {
   font-family: var(--main-font);
   font-size: 42px;
   font-weight: 700;
-  margin: 0 55px 0 83px;
 }
 
 .header_link {
   color: #000000;
   font-family: var(--main-font);
   font-size: 25px;
-  margin: 0 74px 0 0;
   text-decoration: none;
 }
 
