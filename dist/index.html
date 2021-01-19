@@ -1,28 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Restaurant page</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-    <div id="content">
+      <div id="content">
         <!-- Main page-->
         <div class="main-page">
-            <header class="main-page_header header">
-                <span class="header_logo">Ocean Burgers</span>
-                <a id="our-team" href="#" class="header_link">Our Team</a>
-                <a id="menu" href="#" class="header_link">Menu</a>
-                <a id="contact" href="#" class="header_link">Contact</a>
-            </header>
-            
+          <header class="main-page_header header">
+            <span class="header_logo">Ocean Burgers</span>
+            <a id="our-team" href="#" class="header_link">Our Team</a>
+            <a id="menu" href="#" class="header_link">Menu</a>
+            <a id="contact" href="#" class="header_link">Contact</a>
+          </header>
+          <div class="main-page_row">
+            <div class="main-page_title-row">
+              <h1 class="main-page-title">
+                The best<br />burgers from<br />deep see
+              </h1>
+              <button class="menu-btn">
+                <div class="menu-btn_row">
+                  <img src="img/menu-btn-icon.png" alt="menu button icon" />
+                  <span class="menu-btn_text">Menu</span>
+                </div>
+              </button>
+            </div>
+            <div class="main-page_main-img">
+              <div class="main-page_img-container">
+                <img
+                  src="img/main-img.png"
+                  alt="Ocean Burers Restaurant Image"
+                  id="main-img"
+                />
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
