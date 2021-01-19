@@ -3,6 +3,9 @@ html {
   --main-font: Poppins, Arial;
   --main-color: #366eff;
 }
+.main-page {
+  display: none;
+}
 .content {
   max-width: 1200px;
   margin: 0 auto;
@@ -113,4 +116,26 @@ html {
   .main-page-title_line::before {
     display: none;
   }
+}
+
+.team {
+  margin-top: 88px;
+}
+.team_subtitle {
+  text-align: center;
+  color: #000000;
+  font-family: var(--main-font);
+  font-size: 53px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.team_row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team_row_container {
+  margin: 20px;
 }
