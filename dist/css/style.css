@@ -1,5 +1,5 @@
 html {
-  background-image: url("../img/Background.png");
+  background-image: url('../img/Background.png');
   --main-font: Poppins, Arial;
   --main-color: #366eff;
 }
@@ -25,6 +25,7 @@ html {
   margin: 0 74px 0 0;
   text-decoration: none;
 }
+
 .header_link:hover {
   color: var(--main-color);
 }
@@ -34,6 +35,7 @@ html {
   display: flex;
   justify-content: space-around;
 }
+
 .main-page-title {
   color: #000000;
   font-family: var(--main-font);
@@ -43,11 +45,13 @@ html {
   text-align: left;
   position: relative;
 }
+
 .main-page-title_line::before {
-  content: url("../img/title_line.png");
+  content: url('../img/title_line.png');
   position: relative;
   top: -35px;
 }
+
 .menu-btn {
   width: 264px;
   height: 58px;
@@ -62,11 +66,13 @@ html {
   letter-spacing: 3.25px;
   text-transform: uppercase;
 }
+
 .menu-btn_row {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .menu-btn_text {
   margin-left: 19px;
 }
