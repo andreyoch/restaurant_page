@@ -155,6 +155,6 @@ html {
   margin: 20px 10px;
 }
 
-img {
+img > .main-page_img-container {
   width: 100%;
 }
