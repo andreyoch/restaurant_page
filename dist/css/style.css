@@ -120,8 +120,9 @@ html {
 
 .team {
   margin-top: 88px;
+  display: none;
 }
-.team_subtitle {
+.subtitle {
   text-align: center;
   color: #000000;
   font-family: var(--main-font);
@@ -138,4 +139,22 @@ html {
 
 .team_row_container {
   margin: 20px;
+}
+
+.menu {
+  margin-top: 40px;
+}
+.menu_row {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.menu_row_container {
+  margin: 20px 10px;
+}
+
+img {
+  width: 100%;
 }
