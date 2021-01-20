@@ -123,7 +123,7 @@ img {
 
 .team {
   margin-top: 88px;
-  /* display: none; */
+  display: none;
 }
 .subtitle {
   text-align: center;
@@ -161,7 +161,7 @@ text-transform: uppercase;
 }
 
 .menu {
-  display: none;
+  /* display: none; */
   margin-top: 40px;
 }
 .menu_row {
@@ -175,9 +175,7 @@ text-transform: uppercase;
   margin: 20px 10px;
 }
 .menu_item-row {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
   margin: 30px 15px;
 }
 #cheeseburger,#hamburger {
