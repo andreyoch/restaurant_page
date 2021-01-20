@@ -123,7 +123,7 @@ img {
 
 .team {
   margin-top: 88px;
-  display: none;
+  /* display: none; */
 }
 .subtitle {
   text-align: center;
@@ -143,9 +143,25 @@ img {
 .team_row_container {
   margin: 20px;
 }
+.team_member {
+  margin: 15px 30px;
+  text-align: center;
+}
+.team_member_title {
+color: #000000;
+font-family: var(--main-font);
+font-size: 44px;
+text-transform: uppercase;
+}
+.team_member_subtitle {
+color: #5e6883;
+font-family: var(--main-font);
+font-size: 40px;
+text-transform: uppercase;
+}
 
 .menu {
-  /* display: none; */
+  display: none;
   margin-top: 40px;
 }
 .menu_row {
