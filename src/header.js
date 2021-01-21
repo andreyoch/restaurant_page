@@ -1,5 +1,5 @@
 const header = document.createElement('header');
-header.classList.add('header');
+header.classList.add('header','main-page_header');
 
 const headerLogo = document.createElement('span');
 headerLogo.classList.add('header_logo')
