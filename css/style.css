@@ -161,7 +161,7 @@ text-transform: uppercase;
 }
 
 .menu {
-  display: none;
+  /* display: none; */
   margin-top: 40px;
 }
 .menu_row {
