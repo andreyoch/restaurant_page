@@ -7,7 +7,7 @@ img {
   max-width: 90%;
 }
 .main-page {
-  /* display: none; */
+  display: none;
 }
 .content {
   max-width: 1200px;
@@ -123,7 +123,7 @@ img {
 
 .team {
   margin-top: 88px;
-  display: none;
+  /* display: none; */
 }
 .subtitle {
   text-align: center;
