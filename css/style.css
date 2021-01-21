@@ -39,7 +39,9 @@ img {
 .header_link:hover {
   color: var(--main-color);
 }
-
+.active-tab {
+  color: var(--main-color);
+}
 .main-page_row {
   margin-top: 60px;
   display: flex;
@@ -123,7 +125,7 @@ img {
 
 .team {
   margin-top: 88px;
-  /* display: none; */
+  display: none;
 }
 .subtitle {
   text-align: center;
@@ -161,7 +163,7 @@ text-transform: uppercase;
 }
 
 .menu {
-  /* display: none; */
+  display: none;
   margin-top: 40px;
 }
 .menu_row {
@@ -209,7 +211,7 @@ text-align: center;
 margin-top: 30px;
 }
 .contacts {
-  /* display: none; */
+  display: none;
   margin-top: 46px;
 }
 .contacts_image-container {
