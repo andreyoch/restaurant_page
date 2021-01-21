@@ -1,3 +1,10 @@
 import {header} from './header'
+import {mainPage} from './main-page';
 
-console.log(header);
+
+function renderMainPage() {
+    const content = document.querySelector('#content');
+    content.append(mainPage);
+}
+
+renderMainPage();
