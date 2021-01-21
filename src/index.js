@@ -1,1 +1,3 @@
-console.log('Hello!')
+import {header} from './header'
+
+console.log(header);

@@ -3,6 +3,7 @@ header.classList.add('header');
 
 const headerLogo = document.createElement('span');
 headerLogo.classList.add('header_logo')
+headerLogo.textContent = 'Ocean Burgers';
 
 const ourTeamHeaderLink = document.createElement('a');
 ourTeamHeaderLink.classList.add('header_link');
@@ -25,4 +26,4 @@ contactHeaderLink.textContent = 'Contact';
 
 header.append(headerLogo,ourTeamHeaderLink,menuHeaderLink,contactHeaderLink);
 
-export default header;
+export {header};
