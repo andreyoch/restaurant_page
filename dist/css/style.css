@@ -161,7 +161,7 @@ text-transform: uppercase;
 }
 
 .menu {
-  /* display: none; */
+  display: none;
   margin-top: 40px;
 }
 .menu_row {
@@ -209,7 +209,7 @@ text-align: center;
 margin-top: 30px;
 }
 .contacts {
-  display: none;
+  /* display: none; */
   margin-top: 46px;
 }
 .contacts_image-container {
