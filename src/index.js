@@ -1,6 +1,7 @@
 import { header } from './header';
 import { mainPage } from './main-page';
 import { teamPage } from './team-page';
+import {menuPage} from './menu-page';
 
 
 function rednerSite(...pages) {
@@ -10,4 +11,4 @@ function rednerSite(...pages) {
   }
 }
 
-rednerSite(mainPage,teamPage)
+rednerSite(mainPage,teamPage,menuPage)
